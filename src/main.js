@@ -1,9 +1,12 @@
+$(function(){
+    
+    
+    $('#btn span').click(function(){
+        var x = $('#btn span').text();
+        if(x == 'Instagram'){
+            window.location.href = 'https://www.instagram.com/diegozklein/'
 
-const button = document.getElementById('myButton')
+        }
+    })
 
-
-
-
-button.onclick = () => {
-    location.assign('https://www.instagram.com/diegozklein/')
-}
+})
